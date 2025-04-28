@@ -23,3 +23,6 @@ class basic_unit_stats:
         self.attack = attack
         self.attack_speed = attack_speed
         self.img = img
+
+class CallHero(basic_unit_stats):
+    pass
