@@ -7,6 +7,7 @@ class basic_unit_stats:
         'attack_speed',
 
         'img'
+        'atk_type'
         ]
 
     def __init__(self, 
@@ -16,13 +17,17 @@ class basic_unit_stats:
                  attack : int,
                  attack_speed : int,
                  
-                 img : str
+                 img : str,
+                 atk_type : dict
                  ):
         self.name = name
         self.health = health
         self.attack = attack
         self.attack_speed = attack_speed
         self.img = img
+        self.atk_type = atk_type
 
-class CallHero(basic_unit_stats):
+class CallChar(basic_unit_stats):
     pass
+
+
